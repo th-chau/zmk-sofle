@@ -1,6 +1,6 @@
 include:
 
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: settings_reset
   - board: sofle_left
     shield: nice_view_adapter nice_view
