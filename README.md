@@ -1,22 +1,10 @@
 # zmk-sofle
 
-Wireless Sofle ZMK configuration for the YoungMan DIY Sofle V2.0 variant.
+Wireless Sofle ZMK configuration.
 
-The PDF in `../sofle-wired/# YoungMan_Diy Sofle V2.0 Update Firmwave Illustrate.pdf`
-is for the wired QMK/Vial firmware. It uses QMK Toolbox and `.bin` files named
-`sofle_rev2_vial_left.bin` and `sofle_rev2_vial_right.bin`.
-
-This repository is different. It builds ZMK firmware for the wireless halves and
-produces `.uf2` files through GitHub Actions.
-
-## Upstream Notes
-
-Vendor update note, October 24, 2024: the firmware update changed the power
-supply mode to reduce power use and fixed automatic RGB power shutdown. If the
-keyboard firmware predates October 24, 2024, update it.
-
-For 3D print files or keyboard faults, the vendor contact in the original note
-is `380465425@qq.com`.
+This is not the wired YoungMan DIY Sofle V2.0 QMK/Vial firmware repo. The wired
+keyboard uses prebuilt `.bin` firmware files and a different flashing workflow.
+Keep that material in the separate `sofle-wired` repository.
 
 ## Build
 
